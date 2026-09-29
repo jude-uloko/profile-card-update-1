@@ -1,5 +1,6 @@
-import Nav from './Nav'
-import Hero from './Hero';
+import Nav from '../components/Nav'
+import Hero from '../components/Hero';
+import Reasons from '../components/Reasons';
 
 export default function Home () {
   return (
@@ -10,56 +11,7 @@ export default function Home () {
         <Hero />
 
         {/* Reasons */}
-        <section className="reason-section" id="about">
-          <div className="section-container">
-            <h2>3 Reasons To Choose Us</h2>
-            <div className='reason-grid'>
-              <div className='reason-card'>
-                <div className="reason-icon">
-                  S
-                </div>
-                <h3>24/7 Support</h3>
-                <p>
-                  Learn quickly in simple learning
-                  enviroment and get the support you
-                  need throughout your journey.
-                </p>
-                <a href="#">
-                  Read More &ra;
-                </a>
-              </div>
-
-              <div className='reason-card'>
-                <div className="reason-icon">
-                  S
-                </div>
-                <h3>Top Guide</h3>
-                <p>
-                  Learn from highly skilled instructors
-                  and get right guidiance throughout
-                  yout learning journey.
-                </p>
-                <a href="#">
-                  Read More &ra;
-                </a>
-              </div>
-
-              <div className='reason-card'>
-                <div className="reason-icon">
-                  S
-                </div>
-                <h3>Best Course</h3>
-                <p>
-                  Learn from carefully designed courses
-                  that help you build pratical skills.
-                </p>
-                <a href="#">
-                  Read More &ra;
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Reasons />
 
         {/* Three steps */}
 
@@ -109,7 +61,7 @@ export default function Home () {
               {/* Center image */}
               <div className="steps-image">
                 <div className="steps-image-circle">
-                  <img src="" alt="instructor" />
+                  <img src="https://static.vecteezy.com/system/resources/thumbnails/047/268/873/small/confident-software-developer-coding-at-workstation-with-enthusiasm-free-photo.jpeg" alt="instructor" />
                 </div>
               </div>
 

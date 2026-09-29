@@ -66,9 +66,10 @@ export default function Hero() {
           <div className="sparkle sparkle-two">✦</div>
 
           <img
-            src="/images/hero-person.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCLLVMm3HsLK38V9aEnRU9TqIUCxgRqHeywfztkdc08g&s"
             alt="Learn at House instructor"
             className="hero-person"
+            style={{ borderRadius: '50%' }}
           />
 
           <div className="small-dot"></div>
